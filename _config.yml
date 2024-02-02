@@ -40,4 +40,4 @@ aux_links_new_tab: false
 # footer_content: "info footer <a href=\"https://soundcloud.com/bf-club">Link.</a>"
 
 # Color scheme supports "light" (default) and "dark"
-color_scheme: dark
+color_scheme: bf-club-scheme
