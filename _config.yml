@@ -24,8 +24,8 @@ aux_links:
   "Soundcloud":
     - "//soundcloud.com/bf-club"
 
-# # Makes Aux links open in a new tab. Default is false
-# aux_links_new_tab: false
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
 
 # # Heading anchor links appear on hover over h1-h6 tags in page content
 # # allowing users to deep link to a particular heading on a page.
@@ -39,5 +39,5 @@ aux_links:
 # markup / liquid-based content.
 # footer_content: "info footer <a href=\"https://soundcloud.com/bf-club">Link.</a>"
 
-# # Color scheme supports "light" (default) and "dark"
-# color_scheme: dark
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
