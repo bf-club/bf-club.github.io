@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Mixes
+title: Music Archive
 nav_order: 3
 has_children: false
 ---
 
-# Mixes
+# Mixes, Tracks, Sounds
 
 {: .sccookies }
 Soundcloud player uses cookies and may collect usage data for analytics purposes.
