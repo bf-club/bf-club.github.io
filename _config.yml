@@ -45,16 +45,16 @@ color_scheme: bf-club-scheme
 callouts_level: quiet # or loud
 callouts:
   highlight:
-    color: #f2e3c6
+    color: yellow
   important:
     title: Important
-    color: #d3ece1
+    color: blue
   new:
     title: New
-    color: #c2eec7
+    color: green
   note:
     title: Note
-    color: #eed2e8
+    color: purple
   warning:
     title: Warning
-    color: #f6dbdb
+    color: red
