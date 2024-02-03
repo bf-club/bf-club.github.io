@@ -40,6 +40,10 @@ p.sccookies {
   padding: 0.8rem;
 }
 
+.mixes{
+  width: 100%;
+}
+
 .mix {
     width: 100%;
   @include mq(sm) {
@@ -58,7 +62,7 @@ p.sccookies {
 }
 
 
-// Home Banner
+// Home Banner ********
 
 :root {
   --bg-color: #f5f6fa;
