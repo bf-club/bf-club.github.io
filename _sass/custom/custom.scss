@@ -1,5 +1,8 @@
 // Override and completely custom styles:
 // Print-only styles.
 
+body {
+  font-family: roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji" !important;
+}
 $body-font-family: roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji" !default;
 $mono-font-family: consolas, "SFMono-Regular", menlo, consolas, monospace !default;
