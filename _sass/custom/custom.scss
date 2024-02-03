@@ -31,7 +31,7 @@ body {
   }
 }
 
-p.highlight {
+p.sccookies {
   background: none;
   border: 1px solid #f2e3c6;
   border-left: 4px solid #f2e3c6;
@@ -53,5 +53,7 @@ p.highlight {
     padding: 0 1em 1em 1em;
     margin-bottom: 1em;
     border: 1px solid;
+    background: none;
+    border: 1px solid #f2e3c6;
     border-radius: 4px;
 }
