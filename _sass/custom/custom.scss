@@ -44,17 +44,17 @@ p.sccookies {
   width: 100%;
 }
 
+
 // Columns
 .mix {
     width: 100%;
   @include mq(sm) {
-    width: 33%;
+    flex: 33.33%;
   }
 
 }
 
 .mix {
-    float: left;
     padding: 0 1em 1em 1em;
     margin-bottom: 1em;
     background: none;
@@ -62,13 +62,9 @@ p.sccookies {
     border-radius: 4px;
 }
 
-// rows
-.mix-outer:after {
-  content: "";
-  display: table;
-  clear: both;
-  margin:0;
-  padding:0;   
+// container
+.mix-outer{
+  display: flex;   
 }
 
 
