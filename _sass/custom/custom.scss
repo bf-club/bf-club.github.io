@@ -5,4 +5,11 @@ body {
   font-family: consolas, "SFMono-Regular", menlo !important;
   // font-family: Walfork,Walsheim,Helvetica Neue,Helvetica,Arial,sans-serif !important;
 }
-$mono-font-family: consolas, "SFMono-Regular", menlo, consolas, monospace !default;
+
+bf-club-nav-footer {
+    min-height: 2rem;
+    line-height: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  
+}
