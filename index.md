@@ -13,4 +13,4 @@ boyfriend club is [@presea](https://soundcloud.com/presea) + [@un.bound_](https:
 {: .fs-6 .fw-300 }
 
 [Episodes](/docs/posts/posts.html){: .btn .fs-5 .mb-4 .mb-md-0 }
-[mixes](/docs/mixes.html){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Music Archive](/docs/mixes.html){: .btn .fs-5 .mb-4 .mb-md-0 }
