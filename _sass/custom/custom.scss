@@ -111,7 +111,7 @@ body {
   justify-content: space-evenly;
   width: 100%;
   max-width: 800px;
-  height: 150px;
+  height: 100%;
 }
 .frame {
   width: 100%;
@@ -122,20 +122,20 @@ body {
   background: transparent url("/assets/images/bf-club-frames.png") 0 0 no-repeat;
 }
 #one {
-  -webkit-animation: letterC 3s steps(12) infinite;
-          animation: letterC 3s steps(12) infinite;
+  -webkit-animation: letterC 4s steps(12) infinite;
+          animation: letterC 4s steps(12) infinite;
 }
 #two {
-  -webkit-animation: letterI 3s steps(12) infinite;
-          animation: letterI 3s steps(12) infinite;
+  -webkit-animation: letterI 4s steps(12) infinite;
+          animation: letterI 4s steps(12) infinite;
 }
 #three {
-  -webkit-animation: letterA 3s steps(12) infinite;
-          animation: letterA 3s steps(12) infinite;
+  -webkit-animation: letterA 4s steps(12) infinite;
+          animation: letterA 4s steps(12) infinite;
 }
 #four {
-  -webkit-animation: letterO 3s steps(12) infinite;
-          animation: letterO 3s steps(12) infinite;
+  -webkit-animation: letterO 4s steps(12) infinite;
+          animation: letterO 5s steps(12) infinite;
 }
 @-webkit-keyframes letterC {
   0% {
