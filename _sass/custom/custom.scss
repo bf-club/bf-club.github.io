@@ -7,8 +7,9 @@ body {
 }
 
 .bf-club-nav-footer {
-    min-height: 2rem;
-    line-height: 1.5rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    display: block;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    overflow-y: auto;
+    flex: 1 1 auto;
 }
