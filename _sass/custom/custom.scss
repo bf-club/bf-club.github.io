@@ -41,9 +41,9 @@ p.highlight {
 }
 
 .mix {
-    width: 49%;
-  @include mq(sm) {
     width: 100%;
+  @include mq(sm) {
+    width: 49%;
   }
 
 }
