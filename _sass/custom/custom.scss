@@ -49,13 +49,13 @@ p.sccookies {
 .mix {
     width: 100%;
   @include mq(sm) {
-    width: 33.33%;
+    width: 32.4%;
   }
 
 }
 
 .mix {
-  float: left;
+  display: inline-block;
 }
 
 .mix-box {
