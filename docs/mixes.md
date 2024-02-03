@@ -8,7 +8,7 @@ has_children: false
 # Mixes, Tracks, Sounds
 
 {: .sccookies }
-Soundcloud player uses cookies and may collect usage data for analytics purposes.
+Soundcloud player uses cookies and may collect usage data.
 
 
 <div class="mixes">
