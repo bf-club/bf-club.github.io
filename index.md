@@ -14,3 +14,13 @@ boyfriend club is [@presea](https://soundcloud.com/presea) + [@un.bound_](https:
 
 [Episodes](/docs/posts/posts.html){: .btn .fs-5 .mb-4 .mb-md-0 }
 [Music Archive](/docs/mixes.html){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+
+<main class="wrapper">
+  <div class="ciao-frames">
+    <div class="frame" id="one"></div>
+    <div class="frame" id="two"></div>
+    <div class="frame" id="three"></div>
+    <div class="frame" id="four"></div>
+  </div>
+</main>
