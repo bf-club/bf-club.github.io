@@ -44,10 +44,20 @@ p.sccookies {
   width: 100%;
 }
 
+.mix-outer {
+    width: 100%;
+    display: inline-block;
+    margin:0;
+    padding:0;
+    background: none;
+    border: 1px solid #c2eec7;
+    border-radius: 4px;
+}
+
 .mix {
     width: 100%;
   @include mq(sm) {
-    width: 32%;
+    width: 33%;
   }
 
 }
@@ -56,9 +66,6 @@ p.sccookies {
     display: inline-block;
     padding: 0 1em 1em 1em;
     margin-bottom: 1em;
-    background: none;
-    border: 1px solid #c2eec7;
-    border-radius: 4px;
 }
 
 
