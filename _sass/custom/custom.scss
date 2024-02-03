@@ -8,6 +8,7 @@ body {
 
 .bf-club-side-footer {
   width: 100%;
+  max-height: 5.5em;
 
   @include mq(lg) {
     width: $nav-width;
