@@ -7,7 +7,7 @@ has_children: false
 
 # Mixes
 
-{: .highlight }
+{: .sccookies }
 Soundcloud player uses cookies and may collect usage data for analytics purposes.
 
 <div class="mix">
