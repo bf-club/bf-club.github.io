@@ -41,8 +41,15 @@ p.highlight {
 }
 
 .mix {
-    display: inline-block;
     width: 49%;
+  @include mq(lg) {
+    width: 100%;
+  }
+
+}
+
+.mix {
+    display: inline-block;
     padding: 1em;
     margin-bottom: 1em;
     border: 1px solid;
