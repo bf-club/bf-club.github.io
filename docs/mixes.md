@@ -7,7 +7,13 @@ has_children: false
 
 # Mixes
 ---
-{: .custom }
+{: .highlight }
+Soundcloud player uses cookies. They may collect usage data for analytics purposes ([more info](https://soundcloud.com/pages/cookies)).
+
+{: .important }
+Soundcloud player uses cookies. They may collect usage data for analytics purposes ([more info](https://soundcloud.com/pages/cookies)).
+
+{: .new }
 Soundcloud player uses cookies. They may collect usage data for analytics purposes ([more info](https://soundcloud.com/pages/cookies)).
 
 {: .warning }
