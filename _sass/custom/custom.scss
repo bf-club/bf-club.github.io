@@ -90,7 +90,7 @@ body {
 .wrapper {
   width: 100%;
   min-height: 50vh;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -111,7 +111,7 @@ body {
   justify-content: space-evenly;
   width: 100%;
   max-width: 800px;
-  height: 10px;
+  height: 150px;
 }
 .frame {
   width: 100%;
