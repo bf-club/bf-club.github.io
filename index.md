@@ -11,3 +11,6 @@ has_toc: true
 
 boyfriend club is [@presea](https://soundcloud.com/presea) + [@unbund](https://soundcloud.com/unbund) presenting internet club music.
 {: .fs-6 .fw-300 }
+
+[Episodes](#Posts){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Mixes][#Mixes]{: .btn .fs-5 .mb-4 .mb-md-0 }
