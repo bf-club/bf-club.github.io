@@ -58,3 +58,5 @@ callouts:
   warning:
     title: Warning
     color: pink
+  custom:
+    color: pink
