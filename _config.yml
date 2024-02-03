@@ -43,6 +43,7 @@ aux_links_new_tab: false
 color_scheme: bf-club-scheme
 
 callouts_level: quiet # or loud
+callouts_opacity: 0.5
 callouts:
   highlight:
     color: yellowp
@@ -58,4 +59,5 @@ callouts:
   warning:
     title: Warning
     color: pinkp
-  callouts_opacity: 0.5
+  
+
