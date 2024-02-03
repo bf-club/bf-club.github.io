@@ -8,7 +8,7 @@ has_children: false
 # Mixes
 
 {: .highlight }
-Soundcloud player uses cookies and may collect usage data for analytics purposes ([info](https://soundcloud.com/pages/cookies)).
+Soundcloud player uses cookies and may collect usage data for analytics purposes.
 
 <div class="mix">
   <div class="mix-title">
