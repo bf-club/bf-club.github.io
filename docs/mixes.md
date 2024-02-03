@@ -8,7 +8,7 @@ has_children: false
 # Mixes
 ---
 {: .warning }
-Soundcloud player uses cookies. They may collect usage data for analytics purposes ([more info](https://soundcloud.com/pages/cookies)).
+>Soundcloud player uses cookies. They may collect usage data for analytics purposes ([more info](https://soundcloud.com/pages/cookies)).
 
 {: .note }
 Soundcloud player uses cookies. They may collect usage data for analytics purposes ([more info](https://soundcloud.com/pages/cookies)).
