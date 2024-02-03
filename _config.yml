@@ -44,8 +44,6 @@ color_scheme: bf-club-scheme
 
 callouts_level: quiet # or loud
 callouts:
-  custom:
-    color: pink
   highlight:
     color: yellow
   important:
@@ -59,4 +57,4 @@ callouts:
     color: purple
   warning:
     title: Warning
-    color: red
+    color: pink
