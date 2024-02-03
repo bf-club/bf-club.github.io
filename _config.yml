@@ -41,3 +41,20 @@ aux_links_new_tab: false
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: bf-club-scheme
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: #f2e3c6
+  important:
+    title: Important
+    color: #d3ece1
+  new:
+    title: New
+    color: #c2eec7
+  note:
+    title: Note
+    color: #eed2e8
+  warning:
+    title: Warning
+    color: #f6dbdb
