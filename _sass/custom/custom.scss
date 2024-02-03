@@ -115,27 +115,27 @@ body {
 }
 .frame {
   width: 100%;
-  height: 10px;
+  height: 200px; //dont change
   margin: 2px;
   display: block;
   border: 1px solid white;
   background: transparent url("/assets/images/bf-club-frames.png") 0 0 no-repeat;
 }
 #one {
-  -webkit-animation: letterC 1s steps(12) infinite;
-          animation: letterC 1s steps(12) infinite;
+  -webkit-animation: letterC 2s steps(12) infinite;
+          animation: letterC 2s steps(12) infinite;
 }
 #two {
-  -webkit-animation: letterI 1s steps(12) infinite;
-          animation: letterI 1s steps(12) infinite;
+  -webkit-animation: letterI 2s steps(12) infinite;
+          animation: letterI 2s steps(12) infinite;
 }
 #three {
-  -webkit-animation: letterA 1s steps(12) infinite;
-          animation: letterA 1s steps(12) infinite;
+  -webkit-animation: letterA 2s steps(12) infinite;
+          animation: letterA 2s steps(12) infinite;
 }
 #four {
-  -webkit-animation: letterO 1s steps(12) infinite;
-          animation: letterO 1s steps(12) infinite;
+  -webkit-animation: letterO 2s steps(12) infinite;
+          animation: letterO 2s steps(12) infinite;
 }
 @-webkit-keyframes letterC {
   0% {
