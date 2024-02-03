@@ -43,7 +43,7 @@ p.sccookies {
 .mix {
     width: 100%;
   @include mq(sm) {
-    width: 32.5%;
+    width: 32%;
   }
 
 }
@@ -111,7 +111,7 @@ body {
   justify-content: space-evenly;
   width: 100%;
   max-width: 800px;
-  height: 400px;
+  height: 200px;
 }
 .frame {
   width: 100%;
