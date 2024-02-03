@@ -3,17 +3,15 @@ layout: default
 title: Posts
 nav_order: 2
 has_children: true
+has_toc: false
 ---
-
-# Navigation Structure
-{: .no_toc }
 
 <details open markdown="block">
   <summary>
-    Episodes
+    Table of contents
   </summary>
   {: .text-delta }
-- TOC
+1. TOC
 {:toc}
 </details>
 
