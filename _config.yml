@@ -46,7 +46,6 @@ callouts_level: quiet # or loud
 callouts:
   custom:
     color: pink
-    opacity: 0.3
   highlight:
     color: yellow
   important:
