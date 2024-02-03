@@ -58,3 +58,4 @@ callouts:
   warning:
     title: Warning
     color: pinkp
+  callouts_opacity: 0.5
