@@ -59,5 +59,7 @@ callouts:
   warning:
     title: Warning
     color: pinkp
+  sccookies:
+    color: greenp
   
 
