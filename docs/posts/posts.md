@@ -2,13 +2,8 @@
 layout: default
 title: Posts
 nav_order: 2
-has_children: false
+has_children: true
 ---
 
-
-# Navigation Structure
-{: .no_toc }
-
-## Table of contents
 1. TOC
 {:toc}
