@@ -38,6 +38,13 @@ comments:
       options:
         format: "timestamp-seconds"
 
+  reCaptcha:
+    enabled: true
+    # the siteKey is used as-is (no encryption)
+    siteKey: 6Lc2zngpAAAAALA3no0gtbE5EzCEf2mdg_4r0kSA
+    # the secret is the encrypted blob you got back from the encrypt call
+    secret: 6Lc2zngpAAAAAOdpa1C8vXsk9_OWVOzuzqasX1Iz
+
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
