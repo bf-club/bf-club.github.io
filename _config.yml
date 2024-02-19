@@ -67,7 +67,7 @@ callouts:
     color: greenp
   
 
-staticman_url: https://github.com/settings/installations/47490422/v3/entry/github/bf-club/bf-club.github.io/master/comments
+staticman_url: https://github.com/settings/installations/47490422/v3/entry/github/bf-club/bf-club.github.io/main/comments
 params:
   bf_my_staticman:
     branch: main
