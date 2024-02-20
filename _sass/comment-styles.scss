@@ -8,11 +8,11 @@ $comment-font-size: 0.75emd !default;
 $body-font-family: body-font-family;
 $base-line-height: $body-line-height;
 $text-color: $nav-child-link-color;
-$text-area-bg-color: $body-background-color;
-$brand-color: $body-background-color;
+$text-area-bg-color: #31343f;
+$brand-color: #31343f;
 $brand-color-light: $nav-child-link-color;
 $small-font-size: 0.5emd !default;
-$background-color: $body-background-color;
+$background-color: #31343f;
 
 //
 // Staticman new comment form
@@ -70,6 +70,7 @@ $background-color: $body-background-color;
         cursor: pointer;
         padding: 0.3em 1em;
         margin: 0;
+        color: $greenp-000;
     }
     // button:hover {
     //     background-color: $brand-color;
