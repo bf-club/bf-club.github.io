@@ -29,9 +29,7 @@ $background-color: #31343f;
     }
 
     textarea, input {
-        background-color:#29262e;        ;
-        cursor: pointer;
-        color: $greenp-000;
+        background-color: $text-area-bg-color;
     }
 
     // each staticman text field is wrapped in this div
@@ -121,9 +119,9 @@ $background-color: #31343f;
         margin-left: 3em;
     }
     .comment__reply-link {
-        color: $brand-color;
-        font-size: $small-font-size;
+        background-color:#29262e;        ;
         cursor: pointer;
+        color: $greenp-000;
     }
 
 }
