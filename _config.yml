@@ -81,6 +81,6 @@ params:
     service: github
 
 reCaptcha:
-  enabled: true
+  enabled: false
   siteKey: 6LcWstQUAAAAALoGBcmKsgCFbMQqkiGiEt361nK1
   secret: 6Lc2zngpAAAAAOdpa1C8vXsk9_OWVOzuzqasX1Iz

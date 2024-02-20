@@ -39,7 +39,7 @@ comments:
         format: "timestamp-seconds"
 
   reCaptcha:
-    enabled: true
+    enabled: false
     # the siteKey is used as-is (no encryption)
     siteKey: 6Lc2zngpAAAAALA3no0gtbE5EzCEf2mdg_4r0kSA
     # the secret is the encrypted blob you got back from the encrypt call
