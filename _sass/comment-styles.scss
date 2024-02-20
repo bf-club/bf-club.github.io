@@ -29,7 +29,9 @@ $background-color: #31343f;
     }
 
     textarea, input {
-        background-color: $text-area-bg-color;
+        background-color:#29262e;        ;
+        cursor: pointer;
+        color: $greenp-000;
     }
 
     // each staticman text field is wrapped in this div
