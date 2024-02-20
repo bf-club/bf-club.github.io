@@ -11,7 +11,7 @@ $text-color: $nav-child-link-color;
 $text-area-bg-color: #31343f;
 $brand-color: #31343f;
 $brand-color-light: $nav-child-link-color;
-$small-font-size: 0.5emd !default;
+$small-font-size: 0.7em !default;
 $background-color: #31343f;
 
 //
@@ -119,7 +119,6 @@ $background-color: #31343f;
         margin-left: 3em;
     }
     .comment__reply-link {
-        background-color:#29262e;        ;
         cursor: pointer;
         color: $greenp-000;
     }
