@@ -45,7 +45,7 @@ var addComment = function() {
     }).then(
       function (data) {
         if (data.ok) {
-          showModal('Comment submitted', ' ,it will appear when approved.');
+          showModal('Comment submitted, it will appear when approved.');
           form.reset();
           form.doReset();
         } else {
