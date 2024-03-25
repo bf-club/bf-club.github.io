@@ -22,13 +22,13 @@
     {{ include.message | strip_html | markdownify }}
   </div>
 
-{% if include.is_reply %}
+<!-- {% if include.is_reply %} -->
 </article>
-{% else %}
-<!--    <div class="comment__meta">
+<!-- {% else %}
+    <div class="comment__meta">
       <a rel="nofollow" class="comment__reply-link" onclick="return addComment.moveForm('{{ comment_id }}', 'respond', '{{ include.uid }}')">↪&#xFE0E; Reply to {{ include.name }}</a>
-    </div>   -->
-</article>
+    </div>
+</article> -->
 
   {%- capture this_uid %}{{ include.uid }}{% endcapture %}
   {%- assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to_uid == this_uid' %}
