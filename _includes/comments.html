@@ -16,7 +16,7 @@
     {%- assign uid             = comment._id %}
     {% include comment.html is_reply=false uid=uid replying_to=0 email=email name=name url=url date=date message=message uid=uid %}
     {% endfor %}
-  </divv>
+  </div>
   {% endif %}
 
   {% if page.lock_comments != true %}
