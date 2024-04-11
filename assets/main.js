@@ -67,7 +67,7 @@ var addComment = function() {
 
   function showModal(title, message) {
     select('.js-modal-title').innerText = title;
-    select('.js-modal-text').innerHTML = message;
+    select('.js-modal-text').innerHTML = 'Your message will appear when approved.';
     select('body').classList.add('show-modal');
   }
 
