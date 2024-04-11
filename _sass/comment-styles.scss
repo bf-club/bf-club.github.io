@@ -18,6 +18,10 @@ $background-color: #31343f;
 // Staticman new comment form
 //
 
+.textfield {
+    color: blue;
+}
+
 .comments {
     input, select, textarea, label, button {
         font:  #{$base-font-size}/#{$base-line-height} $base-font-family;
