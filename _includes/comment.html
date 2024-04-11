@@ -9,7 +9,7 @@
     {{- include.name | strip_html }}
     <span class="comment__date">
       {%- if include.date -%}
-        |
+        •
         <a href="#{{ comment_id}}" title="Permalink to this comment">
         {{- include.date | date:"%B %eth, %Y %H:%M" -}}
         </a>
@@ -20,27 +20,4 @@
   <div class="comment__body">
     {{ include.message | strip_html | markdownify }}
   </div>
-
-<!-- {% if include.is_reply %} -->
 </article>
-<!-- {% else %}
-    <div class="comment__meta">
-      <a rel="nofollow" class="comment__reply-link" onclick="return addComment.moveForm('{{ comment_id }}', 'respond', '{{ include.uid }}')">↪&#xFE0E; Reply to {{ include.name }}</a>
-    </div>
-</article> 
-
-  {%- capture this_uid %}{{ include.uid }}{% endcapture %}
-  {%- assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to_uid == this_uid' %}
-  {%- assign replies_date = replies | sort: 'date' %}
-  {% for reply in replies_date %}
-    {%- assign email       = reply.email -%}
-    {%- assign name        = reply.name -%}
-    {%- assign url         = reply.url -%}
-    {%- assign date        = reply.date -%}
-    {%- assign message     = reply.message -%}
-    {%- assign uid         = reply._id -%}
-    {% include comment.html is_reply=true uid=uid email=email name=name url=url date=date message=message %}
-  {% endfor %}
-
-  <hr style="border-top: 1px solid #ccc; background: transparent; margin-bottom: 10px;">
-{% endif %}-->
