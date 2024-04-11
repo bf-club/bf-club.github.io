@@ -45,7 +45,7 @@ var addComment = function() {
     }).then(
       function (data) {
         if (data.ok) {
-          showModal('Comment submitted', 'Thanks! Your comment is <a href="https://github.com/travisdowns/travisdowns.github.io/pulls">pending</a>. It will appear when approved.');
+          showModal('Comment submitted', 'Thanks! Your comment will appear when approved.');
           form.reset();
           form.doReset();
         } else {
@@ -67,7 +67,7 @@ var addComment = function() {
 
   function showModal(title, message) {
     select('.js-modal-title').innerText = title;
-    select('.js-modal-text').innerHTML = 'Your message will appear when approved.';
+    select('.js-modal-text').innerHTML = message;
     select('body').classList.add('show-modal');
   }
 
