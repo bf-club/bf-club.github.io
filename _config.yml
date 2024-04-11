@@ -76,7 +76,6 @@ params:
     property: comments
     repo: user/repo
     required_fields:
-    - email
     - url
     service: github
 
