@@ -22,9 +22,9 @@
     {{ include.message | strip_html | markdownify }}
   </div>
 
-<!-- {% if include.is_reply %} -->
+{% if include.is_reply %}
 </article>
-<!-- {% else %}
+{% else %}
     <div class="comment__meta">
       <a rel="nofollow" class="comment__reply-link" onclick="return addComment.moveForm('{{ comment_id }}', 'respond', '{{ include.uid }}')">↪&#xFE0E; Reply to {{ include.name }}</a>
     </div>
@@ -44,4 +44,4 @@
   {% endfor %}
 
   <hr style="border-top: 1px solid #ccc; background: transparent; margin-bottom: 10px;">
-{% endif %}-->
+{% endif %}
